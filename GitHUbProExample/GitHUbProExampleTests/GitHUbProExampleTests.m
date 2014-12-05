@@ -29,7 +29,7 @@
 
 - (void)testExample
 {
-    XCTAssertTrue([@"Bharath" isEqualToString:@"Bharath"]);
+    XCTAssertEqual(@"Bharath", @"Sarath", );
 }
 
 @end
