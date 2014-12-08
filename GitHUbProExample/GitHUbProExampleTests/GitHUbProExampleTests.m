@@ -17,7 +17,7 @@
 - (void)setUp
 {
     [super setUp];
-    XCTAssertTrue([@"Bharath" isEqualToString:@"Bharath"]);
+    XCTAssertTrue([@"Bharath" isEqualToString:@"Raju"]);
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
