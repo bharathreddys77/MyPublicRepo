@@ -20,6 +20,20 @@
                ReferencedContainer = "container:GitHUbProExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "870472871A31BE850006A803"
+               BuildableName = "GitHUbProExampleTests.xctest"
+               BlueprintName = "GitHUbProExampleTests"
+               ReferencedContainer = "container:GitHUbProExample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
