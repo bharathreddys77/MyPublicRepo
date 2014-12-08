@@ -22,6 +22,8 @@
 		870472941A31BE850006A803 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 870472921A31BE850006A803 /* InfoPlist.strings */; };
 		870472961A31BE850006A803 /* GitHUbProExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870472951A31BE850006A803 /* GitHUbProExampleTests.m */; };
 		87DB1B721A358ABD0032FB56 /* GitHUBExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DB1B711A358ABD0032FB56 /* GitHUBExampleTests.m */; };
+		87DB1B731A358D0F0032FB56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870472891A31BE850006A803 /* XCTest.framework */; };
+		87DB1B751A358D180032FB56 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DB1B741A358D180032FB56 /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,7 @@
 		870472931A31BE850006A803 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		870472951A31BE850006A803 /* GitHUbProExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHUbProExampleTests.m; sourceTree = "<group>"; };
 		87DB1B711A358ABD0032FB56 /* GitHUBExampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHUBExampleTests.m; sourceTree = "<group>"; };
+		87DB1B741A358D180032FB56 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DB1B751A358D180032FB56 /* SenTestingKit.framework in Frameworks */,
+				87DB1B731A358D0F0032FB56 /* XCTest.framework in Frameworks */,
 				8704726D1A31BE850006A803 /* CoreGraphics.framework in Frameworks */,
 				8704726F1A31BE850006A803 /* UIKit.framework in Frameworks */,
 				8704726B1A31BE850006A803 /* Foundation.framework in Frameworks */,
@@ -103,6 +108,7 @@
 		870472691A31BE850006A803 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87DB1B741A358D180032FB56 /* SenTestingKit.framework */,
 				8704726A1A31BE850006A803 /* Foundation.framework */,
 				8704726C1A31BE850006A803 /* CoreGraphics.framework */,
 				8704726E1A31BE850006A803 /* UIKit.framework */,
@@ -386,6 +392,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Ben Rosenberg (VJ5D7F94U6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ben Rosenberg (VJ5D7F94U6)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GitHUbProExample/GitHUbProExample-Prefix.pch";
 				INFOPLIST_FILE = "GitHUbProExample/GitHUbProExample-Info.plist";
@@ -401,6 +411,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Ben Rosenberg (VJ5D7F94U6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ben Rosenberg (VJ5D7F94U6)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GitHUbProExample/GitHUbProExample-Prefix.pch";
 				INFOPLIST_FILE = "GitHUbProExample/GitHUbProExample-Info.plist";
