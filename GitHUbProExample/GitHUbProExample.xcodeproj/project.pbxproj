@@ -21,6 +21,7 @@
 		8704728C1A31BE850006A803 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8704726E1A31BE850006A803 /* UIKit.framework */; };
 		870472941A31BE850006A803 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 870472921A31BE850006A803 /* InfoPlist.strings */; };
 		870472961A31BE850006A803 /* GitHUbProExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870472951A31BE850006A803 /* GitHUbProExampleTests.m */; };
+		8722F9621E0B8AC400FDBC6D /* SSOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8722F9611E0B8AC400FDBC6D /* SSOObject.m */; };
 		87DB1B731A358D0F0032FB56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870472891A31BE850006A803 /* XCTest.framework */; };
 		87DB1B751A358D180032FB56 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DB1B741A358D180032FB56 /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,8 @@
 		870472911A31BE850006A803 /* GitHUbProExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitHUbProExampleTests-Info.plist"; sourceTree = "<group>"; };
 		870472931A31BE850006A803 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		870472951A31BE850006A803 /* GitHUbProExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHUbProExampleTests.m; sourceTree = "<group>"; };
+		8722F9601E0B8AC400FDBC6D /* SSOObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSOObject.h; sourceTree = "<group>"; };
+		8722F9611E0B8AC400FDBC6D /* SSOObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSOObject.m; sourceTree = "<group>"; };
 		87DB1B741A358D180032FB56 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -125,6 +128,8 @@
 				870472801A31BE850006A803 /* SSOViewController.m */,
 				870472821A31BE850006A803 /* Images.xcassets */,
 				870472711A31BE850006A803 /* Supporting Files */,
+				8722F9601E0B8AC400FDBC6D /* SSOObject.h */,
+				8722F9611E0B8AC400FDBC6D /* SSOObject.m */,
 			);
 			path = GitHUbProExample;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			files = (
 				8704727B1A31BE850006A803 /* SSOAppDelegate.m in Sources */,
 				870472771A31BE850006A803 /* main.m in Sources */,
+				8722F9621E0B8AC400FDBC6D /* SSOObject.m in Sources */,
 				870472811A31BE850006A803 /* SSOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
